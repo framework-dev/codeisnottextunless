@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>The Code is Not the Text: Generator</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="preload" as="style" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&amp;display=swap" crossorigin>
+<link rel="stylesheet" type="text/css" href="./_observablehq/theme-air,near-midnight.css">
+<link rel="modulepreload" href="./_observablehq/client.js">
+<link rel="modulepreload" href="./_observablehq/runtime.js">
+<link rel="modulepreload" href="./_observablehq/stdlib.js">
+<script type="module">
+
+import {define} from "./_observablehq/client.js";
+
+define({id: "aca21f79", outputs: ["unless","is","reallyIsNot","flipForIt","lastCriticalStatement","newCriticalStatement","myCriticalCodeStudy"], body: () => {
+const unless = "unless", is = "is",
+reallyIsNot = "it is not", flipForIt = (oneOr, theOther) =>
+((Math.random() * 2) | 0) == 0 ? oneOr : theOther
+let lastCriticalStatement =
+"the code is not the text unless it is the text",
+newCriticalStatement = "",
+myCriticalCodeStudy = [lastCriticalStatement]
+while (myCriticalCodeStudy.length < 101) {
+let theCode = flipForIt("the code", "the text"),
+isNot = "is not",
+theText = flipForIt("the text", "the code"),
+itIs = "it is"
+if (theCode == theText) {
+isNot = flipForIt(isNot, is)
+itIs = isNot == is ? reallyIsNot : itIs }
+newCriticalStatement =
+`${theCode} ${isNot} ${theText} ${unless} ${itIs} ${theText}`
+if (newCriticalStatement != lastCriticalStatement) {
+myCriticalCodeStudy.push(newCriticalStatement)
+lastCriticalStatement = newCriticalStatement } }
+return {unless,is,reallyIsNot,flipForIt,lastCriticalStatement,newCriticalStatement,myCriticalCodeStudy};
+}});
+
+define({id: "a91f3ac0", inline: true, inputs: ["myCriticalCodeStudy","display"], body: async (myCriticalCodeStudy,display) => {
+display(await(
+myCriticalCodeStudy.join(" and ")
+))
+}});
+
+</script>
+<div id="observablehq-center">
+<main id="observablehq-main" class="observablehq">
+<h2 id="the-code-is-not-the-text%3A-generator" tabindex="-1"><a class="observablehq-header-anchor" href="#the-code-is-not-the-text%3A-generator">The Code is Not the Text: Generator</a></h2>
+<div id="cell-aca21f79" class="observablehq observablehq--block"></div>
+<pre data-language="js"><code class="language-js"><span class="hljs-keyword">const</span> unless = <span class="hljs-string">"unless"</span>, is = <span class="hljs-string">"is"</span>,
+reallyIsNot = <span class="hljs-string">"it is not"</span>, flipForIt = <span class="hljs-function">(<span class="hljs-params">oneOr, theOther</span>) =&gt;</span>
+((<span class="hljs-title class_">Math</span>.<span class="hljs-title function_">random</span>() * <span class="hljs-number">2</span>) | <span class="hljs-number">0</span>) == <span class="hljs-number">0</span> ? oneOr : theOther
+<span class="hljs-keyword">let</span> lastCriticalStatement =
+<span class="hljs-string">"the code is not the text unless it is the text"</span>,
+newCriticalStatement = <span class="hljs-string">""</span>,
+myCriticalCodeStudy = [lastCriticalStatement]
+<span class="hljs-keyword">while</span> (myCriticalCodeStudy.<span class="hljs-property">length</span> &lt; <span class="hljs-number">101</span>) {
+<span class="hljs-keyword">let</span> theCode = <span class="hljs-title function_">flipForIt</span>(<span class="hljs-string">"the code"</span>, <span class="hljs-string">"the text"</span>),
+isNot = <span class="hljs-string">"is not"</span>,
+theText = <span class="hljs-title function_">flipForIt</span>(<span class="hljs-string">"the text"</span>, <span class="hljs-string">"the code"</span>),
+itIs = <span class="hljs-string">"it is"</span>
+<span class="hljs-keyword">if</span> (theCode == theText) {
+isNot = <span class="hljs-title function_">flipForIt</span>(isNot, is)
+itIs = isNot == is ? reallyIsNot : itIs }
+newCriticalStatement =
+<span class="hljs-string">`<span class="hljs-subst">${theCode}</span> <span class="hljs-subst">${isNot}</span> <span class="hljs-subst">${theText}</span> <span class="hljs-subst">${unless}</span> <span class="hljs-subst">${itIs}</span> <span class="hljs-subst">${theText}</span>`</span>
+<span class="hljs-keyword">if</span> (newCriticalStatement != lastCriticalStatement) {
+myCriticalCodeStudy.<span class="hljs-title function_">push</span>(newCriticalStatement)
+lastCriticalStatement = newCriticalStatement } }
+</code></pre>
+<p><span id="cell-a91f3ac0"><span class="observablehq-loading"></span></span></p></main>
+<footer id="observablehq-footer">
+<div>Built with <a href="https://observablehq.com/" target="_blank" rel="noopener noreferrer">Observable</a> on <a title="2024-06-08T15:05:40">Jun 8, 2024</a>.</div>
+</footer>
+</div>
