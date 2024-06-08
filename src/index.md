@@ -24,5 +24,5 @@ if (newCriticalStatement != lastCriticalStatement) {
 myCriticalCodeStudy.push(newCriticalStatement)
 lastCriticalStatement = newCriticalStatement } }
 ```
-*The code above generates an* `array` *of statements in* `myCriticalCodeStudy`*. The statements are displayed below, joined by* ‘ and ’. *Refreshing the page regenerates the study.*
+*The code above generates an* `array` *of statements in* `myCriticalCodeStudy`*. The statements are displayed below, joined by* ‘and’. *Refreshing the page regenerates the study.*
 <p>${myCriticalCodeStudy.join(" and ")}</p>
