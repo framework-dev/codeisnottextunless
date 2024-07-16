@@ -1,7 +1,7 @@
 ---
 toc: false
 ---
-## The Code is Not the Text: Generator
+## The Code is Not the Text: Generator 101
 ```js echo
 const unless = "unless", is = "is",
 reallyIsNot = "it is not", flipForIt = (oneOr, theOther) =>
@@ -24,5 +24,5 @@ if (newCriticalStatement != lastCriticalStatement) {
 myCriticalCodeStudy.push(newCriticalStatement)
 lastCriticalStatement = newCriticalStatement } }
 ```
-*The code above generates an* `array` *of statements in* `myCriticalCodeStudy`*. The statements are displayed below, joined by* ‘and’. *Refreshing the page regenerates the study.*
+*The code (text?) above generates an* `array` *of statements in* `myCriticalCodeStudy`*. The statements are displayed below, joined by* ‘and’. *Refreshing the page regenerates the study (text!).*
 <p>${myCriticalCodeStudy.join(" and ")}</p>
