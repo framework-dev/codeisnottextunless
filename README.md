@@ -2,7 +2,7 @@
 
 This is one of @shadoof's first [Observable Framework](https://observablehq.com/framework) projects. It’s a simple one derived from something I did for [Bad Quarto’s *Our Generation*](https://badquar.to/publications/our_generation.html).
 
-To view the static site produced by this framework go to: https://shadoof.observablehq.cloud/code-in-not-text-unless/
+To view the static site produced by this framework go to: https://shadoof.observablehq.cloud/code-is-not-text-unless/
 
 Notes from here on refer to Framework development in general. To start the local preview server, run:
 
